@@ -1,0 +1,187 @@
+.main{
+    position: relative;
+}
+.main-heading{
+    color: blue;
+    background-color:  rgb(133, 133, 254);
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Barrio', system-ui;
+    transition: transform 0.2s;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.main-heading:hover
+{
+    color:  rgb(133, 133, 254) ;
+    background-color: white;
+    transform: scale(1.2);
+    border: 4px solid black;
+}
+.cardContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    max-height: 350px;
+}
+.card img
+{
+ width: 70%; 
+  height: 62%;
+  
+}
+.card header {
+    font-family: 'Barrio' , system-ui;
+}
+.card
+{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(112, 247, 112);
+    text-align: center;
+    flex: 1;
+    transition: transform 0.2s;
+    min-height: 347px;
+    
+}
+.card:hover
+{
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+.readMore
+{
+    font-family: 'Barrio', system-ui;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+.readMore:hover
+{
+    color:  rgb(24, 24, 207);
+    font-weight: bold;
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.name-type{
+    color: blue;
+    font-family: 'Barrio', system-ui;
+    
+}
+.main
+{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   background-color: rgb(133, 133, 254);
+   background-image: url(Pok.jpg);
+   gap: 20px;
+   align-items: center;
+   justify-content: center;
+}
+
+.loadmore
+{
+    font-size: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-family: 'Barrio', system-ui;
+     transition: transform 0.2s;
+    
+}
+.loadmore:hover
+{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    transform: scale(1.1);
+    cursor: pointer;
+    color: rgb(133, 133, 254);
+    background-color: black;
+}
+
+
+.moredetails
+{
+    border: 2px solid black;
+    font-family: 'Single Day', cursive;
+  font-size: 34px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+.moredetails button{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 27px;
+    cursor: pointer;   
+    border-radius: 10px;
+    transition: transform 0.2s;
+   
+}
+
+.moredetails button:hover
+{
+    transform: scale(1.2);
+    background-color: black;
+    color:  rgba(255, 255, 255, 0.7);
+}
+
+.modalOverlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px); 
+   
+}
+
+.class-loadmore
+{
+    align-items: center;
+    background-color: rgb(133, 133, 254);
+    text-align: center;
+}
+.mySelf
+{
+    background-color: rgb(133, 133, 254);
+    font-family: 'Barrio', system-ui;
+    transition: transform 0.5s ease-in-out;
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 705px;
+
+}
+.mySelf:hover{
+    color: white;
+    transform: rotate(360deg) scale(1.2);
+}
+
+.links
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.2s;
+}
+.links:hover
+{
+    color: white;
+    transform: scale(1.2);
+}
+
